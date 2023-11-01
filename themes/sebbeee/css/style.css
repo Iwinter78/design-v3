@@ -4,6 +4,12 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --white: #fff;
+    --black: #000;
+    --green: #00ff00;
+    --purple: #800080;
+}
 
 ol, ul {
     padding-left: 1.5em;
@@ -15,6 +21,7 @@ ol, ul {
 
 html, body {
     height: 100%;
+    background-color: var(--black);
 }
 
 /* Placement */
@@ -26,20 +33,46 @@ body {
 
 .main {
     flex: 1 0 auto;
+    color: var(--green);
 }
 
 .header, .footer {
     flex: 0 0 auto;
 }
-
+.footer{
+    background-color: var(--green);
+}
 /* Header */
 
 .header, .site-header {
     display: flex;
     justify-content: space-between;
 }
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-color: var(--black);
+}
+.nav a{
+    color: var(--green);
+}
+.nav li:first-child{
+    color: var(--black);
+    background-color: var(--white);
+}
+.nav li:last-child{
+    color: var(--black);
+    background-color: var(--black);
+}
+.nav li:hover{
+    color: var(--black);
+    background-color: var(--purple);
+}
 /* Main */
-
+.main{
+    margin: 0 auto;
+    width: 50%;
+}
 .main img{
     width: 300px;
     height: 400px;
@@ -52,6 +85,15 @@ body {
 .logo{
     width: 300px;
     height: 300px;
+}
+.title h1{
+    color: var(--green);
+}
+.title a{
+    color: var(--green);
+}
+.title p{
+    color: var(--green);
 }
 
 @media (max-width: 767px) {
@@ -152,4 +194,30 @@ blockquote {
     margin-left: 1em;
     padding-left: 1em;
     border-left: 0.5em solid #f5f5f5;
+}
+
+/* Test page */
+
+.box-white{
+    box-sizing: content-box;
+    width: 600px;
+    height: 100px;
+    background-color: var(--white);
+}
+.box-blue{
+    box-sizing: content-box;
+    width: 100%;
+    height: 100px;
+    background-color: #00F;
+}
+.box-red{
+    box-sizing: border-box;
+    width: 50vw;
+    height: 100px;
+    background-color: #F00;
+}
+.box-green{
+    width: 100%;
+    height: 100px;
+    background-color: var(--green);
 }
