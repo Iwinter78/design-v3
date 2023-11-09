@@ -2,9 +2,9 @@
 Title: About
 Description: A about page that describes what tech the website uses
 ---
-Teknologier
-============================
+
 <section class="tech">
+<h1>Teknologier</h1>
 Sidan använder sig främst utav ett PHP ramverk som heter Twig som är en mallhanterare.
 Ramverket blir då lite som en extention till vanliga PHP men med extra funktioner som kan underlätta att jobba med programmeringsspråket.
 

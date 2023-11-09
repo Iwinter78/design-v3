@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -6422,10 +6423,26 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+/* Färger */
+/* Slut på färger */
+.nav li a {
+  width: 15px;
+  height: 15px;
+  color: #000;
+  background-color: #fff;
+}
+.nav li a:hover {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
 .tech {
   font-family: "Poppins", sans-serif;
   width: 70%;
   margin: 0 auto;
+  outline: 1px solid #000;
+  padding: 10px;
 }
 
 blockquote {

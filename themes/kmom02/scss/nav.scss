@@ -1,0 +1,13 @@
+.nav {
+    li a {
+        width: 15px;
+        height: 15px;
+        color: $black;
+        background-color: $white;
+        &:hover {
+            background-color: $black;
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}
