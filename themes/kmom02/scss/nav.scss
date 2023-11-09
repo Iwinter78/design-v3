@@ -4,10 +4,12 @@
         height: 15px;
         color: $black;
         background-color: $white;
-        &:hover {
-            background-color: $black;
-            color: $white;
-            text-decoration: none;
-        }
+    }
+
+    li a:hover {        
+        background-color: $black;
+        color: $white;
+        text-decoration: none;
     }
 }
+
