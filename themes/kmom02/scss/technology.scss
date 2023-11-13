@@ -1,0 +1,10 @@
+.grid {
+    display: grid;
+}
+.wrapper {
+    margin: $middle;
+}
+.css {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}

@@ -8,6 +8,10 @@ Teknologier
 ==========================
 
 <div class="grid wrapper">
-    <div class="css">CSS</div>
-    <div class="html">HTML</div>
+    <div class="css">
+    <h1>CSS</h1>
+    </div>
+    <div class="html">
+    <h1>HTML</h1>
+    </div>
 </div>
