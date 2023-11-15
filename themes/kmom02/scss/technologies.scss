@@ -1,0 +1,37 @@
+.article-layout {
+    width: 100%;
+    grid-template-columns: repeat(3, minmax(0, 0.3fr));
+}
+
+.article-layout a {
+    text-decoration: underline;
+    color: $black;
+}
+
+.select-article {
+    grid-row: span 1;
+    grid-column: span 1;
+    border: $black-line;
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+
+.display-article {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+@media (max-width: 768px) {
+    .article-layout {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    
+    .select-article {
+        display: none;
+    }
+
+    .display-article {
+        margin: $middle;
+    }
+}

@@ -1,17 +1,30 @@
 ---
-Title: Grid layout
+Title: Teknologier
 Description: This is a CSS grid layout page
-Template: technologies
+Template: technology
 ---
 
-Teknologier
-==========================
-
-<div class="grid wrapper">
+<div class="grid-container">
+    <h1 class="title">Teknologier</h1>
     <div class="css">
-    <h1>CSS</h1>
+        <a href="%base_url%?technology/css"><h1 class="underline">CSS</h1></a>
     </div>
     <div class="html">
-    <h1>HTML</h1>
+        <a href="%base_url%?technology/html"><h1 class="underline">HTML</h1></a>
+    </div>
+    <div class="javascript">
+        <a href="%base_url%?technology/html"><h1 class="underline">JavaScript</h1></a>
+    </div>
+    <div class="php">
+        <a href="%base_url%?technology/php"><h1 class="underline">PHP</h1></a>
+    </div>
+    <div class="python">
+        <a href="%base_url%?technology/python"><h1 class="underline">Python</h1></a>
+    </div>
+    <div class="git">
+        <a href="%base_url%?technology/css"><h1 class="underline">Git</h1></a>
+    </div>
+    <div class="sqlite">
+        <a href="%base_url%?technology/css"><h1 class="underline">SQlite</h1></a>
     </div>
 </div>
