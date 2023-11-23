@@ -12,7 +12,7 @@
 
 .grid-container > div {
     text-align: left;
-    background-color: $green;
+    background-color: $olive-green;
     height: 15vh;
 }
 
@@ -21,9 +21,10 @@
 }
 
 .underline {
-    color: $black;
+    background-color: $olive-green;
+    color: $white;
     text-decoration: none;
-    border-bottom: $black-line;
+    border-bottom: 1px solid $white;
 }
 
 .technology-title {

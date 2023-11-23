@@ -1,0 +1,59 @@
+* {
+    color: $white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    background-color: $olive-green;
+}
+
+div.title {
+    background-color: $olive-green;
+}
+
+.title a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.main {
+    background-color: $olive-green;
+}
+
+.main > h1, h2, p:last-child{
+    margin-top: 0;
+}
+
+.main > p:last-child {
+    margin-bottom: 0;
+}
+
+.footer {
+    background-color: $black;
+}
+
+.footer p {
+    margin-top: 0;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+code {
+    background-color: $black;
+}
+
+pre {
+    background-color: $black;
+}
+
+pre > code {
+    background-color: $black;
+}

@@ -5,7 +5,7 @@ Template: technology
 ---
 
 <div class="grid-container">
-    <h1 class="title">Teknologier</h1>
+    <h1 class="technology-title">Teknologier</h1>
     <div class="css">
         <a href="%base_url%?technology/css"><h1 class="underline">CSS</h1></a>
     </div>
