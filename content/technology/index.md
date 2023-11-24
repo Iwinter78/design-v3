@@ -13,7 +13,7 @@ Template: technology
         <a href="%base_url%?technology/html"><h1 class="underline">HTML</h1></a>
     </div>
     <div class="javascript">
-        <a href="%base_url%?technology/html"><h1 class="underline">JavaScript</h1></a>
+        <a href="%base_url%?technology/javascript"><h1 class="underline">JavaScript</h1></a>
     </div>
     <div class="php">
         <a href="%base_url%?technology/php"><h1 class="underline">PHP</h1></a>
@@ -22,9 +22,9 @@ Template: technology
         <a href="%base_url%?technology/python"><h1 class="underline">Python</h1></a>
     </div>
     <div class="git">
-        <a href="%base_url%?technology/css"><h1 class="underline">Git</h1></a>
+        <a href="%base_url%?technology/git"><h1 class="underline">Git</h1></a>
     </div>
     <div class="sqlite">
-        <a href="%base_url%?technology/css"><h1 class="underline">SQlite</h1></a>
+        <a href="%base_url%?technology/sqlite"><h1 class="underline">SQlite</h1></a>
     </div>
 </div>
