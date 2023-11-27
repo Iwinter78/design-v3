@@ -6637,6 +6637,7 @@ pre > code {
 .select-article {
   grid-row: span 1;
   grid-column: span 1;
+  border: 1px solid #435943;
   padding: 15px;
   margin-left: 10px;
   border-radius: 6px;
