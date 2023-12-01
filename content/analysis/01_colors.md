@@ -1,3 +1,7 @@
+---
+Template: technology
+---
+
 Jämnförelse av typografi och färger – en självklarhet?
 =======================
 
