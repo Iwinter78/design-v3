@@ -6,12 +6,14 @@ h1 {
     margin: 0;
 }
 
-.header {
-    background-color: $olive-green;
-}
+.site-header {
+    background-image: url("../../../assets/img/banner.jpg");
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
 
-.title {
-    background-color: $olive-green;
+    &:hover {
+        opacity: 0.9;
+    }
 }
 
 .title a {
@@ -20,6 +22,10 @@ h1 {
     &:hover {
         text-decoration: underline;
     }
+}
+
+.title p {
+    margin: 0;
 }
 
 .main {

@@ -6468,12 +6468,13 @@ h1 {
   margin: 0;
 }
 
-.header {
-  background-color: #4F824F;
+.site-header {
+  background-image: url("../../../assets/img/banner.jpg");
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
 }
-
-.title {
-  background-color: #4F824F;
+.site-header:hover {
+  opacity: 0.9;
 }
 
 .title a {
@@ -6481,6 +6482,10 @@ h1 {
 }
 .title a:hover {
   text-decoration: underline;
+}
+
+.title p {
+  margin: 0;
 }
 
 .main {
@@ -6521,6 +6526,8 @@ pre > code {
 
 .nav {
   background-color: #4F824F;
+  border-top: 1px solid #435943;
+  border-bottom: 1px solid #435943;
 }
 
 .nav a {
